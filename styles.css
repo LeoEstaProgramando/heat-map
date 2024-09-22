@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.main {
+  height: auto;
+  width: auto;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  font-family: 'Roboto';
+  padding: 20px;
+  margin: auto;
+}
+.main #title {
+  text-align: center;
+  font-size: 2em;
+}
+.main #subtitle {
+  text-align: center;
+  font-size: 1em;
+}
+.main .graph {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+#tooltip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  text-align: start;
+  width: auto;
+  height: auto;
+  line-height: 1;
+  padding: 10px;
+  background: lightsteelblue;
+  border-radius: 15px;
+  pointer-events: none;
+  font-size: 0.80em;
+}
